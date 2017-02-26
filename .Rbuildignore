@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^cran-comments\.md$
+^data-raw$
+^README\.*Rmd$
+^README\.*html$
+^CONDUCT\.md$
+^README_figs$
+^docs$
+^\.travis\.yml$
+^appveyor\.yml$
