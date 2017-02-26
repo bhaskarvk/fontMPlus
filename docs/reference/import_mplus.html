@@ -83,8 +83,18 @@
     <p>Import MPlus font for use in hrbrthemes</p>
     
 
-    <pre><span class='fu'>import_mplus</span>()</pre>
-        
+    <pre><span class='fu'>import_mplus</span>(<span class='kw'>font_dir</span> <span class='kw'>=</span> <span class='fu'>system.file</span>(<span class='st'>"fonts"</span>, <span class='st'>"mplus"</span>, <span class='kw'>package</span> <span class='kw'>=</span> <span class='st'>"fontMPlus"</span>))</pre>
+    
+    <div class="section">
+    <h2>Arguments</h2>
+    <dl class="dl-horizontal">
+      <dt>font_dir</dt>
+      <dd>Location of M+ TTF fonts.
+This package includes only basic Latin glyph fonts. If you need multilingual glyphs
+including Kana/Kanji glyphs, download and extract complete M+ fonts from <a href = 'http://mplus-fonts.osdn.jp/about-en.html'>http://mplus-fonts.osdn.jp/about-en.html</a> and pass the directory name where you have extracted the fonts.</dd>
+    </dl>
+    </div>
+    
     <div class="section">
       <h2>Note</h2>
 
