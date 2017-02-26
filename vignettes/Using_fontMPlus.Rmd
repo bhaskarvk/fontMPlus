@@ -1,31 +1,14 @@
 ---
-output: github_document
+title: "Using fontMPlus"
+author: "Bhaskar V. Karambelkar"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using fontMPlus}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
-```{r, echo = FALSE}
-knitr::opts_chunk$set(fig.retina=2, fig.path = "README_figs/README-")
-```
 
-## M+ FONTS Based `ggplot2` Themes.
-
-
-```{r, echo = FALSE}
-description <- readLines(system.file("DESCRIPTION", package='fontMPlus'))
-rvers <- stringr::str_match(grep("R \\(", description, value = TRUE), "[0-9]{1,4}\\.[0-9]{1,4}\\.[0-9]{1,4}")[1,1]
-```
-
-[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-green.svg)](/commits/master)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-```{r, echo = FALSE}
-description <- readLines(system.file("DESCRIPTION", package='fontMPlus'))
-version <- gsub(" ", "", gsub("Version:", "", grep("Version:", description, value = TRUE)))
-```
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-`r rvers`-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-`r version`-orange.svg?style=flat-square)](commits/master)
- 
-----
-
-This is an add-on pacakge for  [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) pacakge. It provides seven ggplot2 themes based on [M+ FONTS](http://mplus-fonts.osdn.jp/about-en.html). 
 
 The M+ fonts are a font family under the Free license. You can use, copy, and distribute them, with or without modification, either commercially or noncommercially. The font family provides multilingual glyphs.
 The fonts provide Kana, over 5,000 Kanji, Basic Latin, Latin-1 Supplement, Latin Extended-A, and IPA Extensions glyphs. Most of the Greek, Cyrillic, Vietnamese, and extended glyphs and symbols are included too.
@@ -69,7 +52,7 @@ The `fontMPlus::import_mplus()` call will import the M+ fonts in your `extrafont
 
 #### M+ C Type 1
 
-```{r c1, fig.retina=2}
+```{r c1, fig.retina=1, fig.width=6, fig.height=4}
 library(ggplot2)
 library(fontMPlus)
 
@@ -85,37 +68,37 @@ gg + theme_ipsum_mplus_c1()
 
 #### M+ C Type 2
 
-```{r c2, fig.retina=2}
+```{r c2, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_c2()
 ```
 
 #### M+ P Type 1
 
-```{r p1, fig.retina=2}
+```{r p1, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_p1()
 ```
 
 #### M+ P Type 2
 
-```{r p2, fig.retina=2}
+```{r p2, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_p2()
 ```
 
 #### M+ M Type 1
 
-```{r m1, fig.retina=2}
+```{r m1, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_m1()
 ```
 
 #### M+ M Type 2
 
-```{r m2, fig.retina=2}
+```{r m2, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_m2()
 ```
 
 #### M+ MN Type 1
 
-```{r mn1, fig.retina=2}
+```{r mn1, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_mn1()
 ```
 

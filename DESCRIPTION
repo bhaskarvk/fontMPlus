@@ -20,6 +20,9 @@ LazyData: true
 RoxygenNote: 6.0.1
 Imports: hrbrthemes,
     extrafont
-Suggests: stringr
+Suggests: stringr,
+    knitr,
+    rmarkdown
 URL: https://github.com/bhaskarvk/fontMPlus
 BugReports: https://github.com/bhaskarvk/fontMPlus/issues
+VignetteBuilder: knitr
