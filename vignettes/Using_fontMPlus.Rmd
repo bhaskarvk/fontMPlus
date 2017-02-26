@@ -101,6 +101,3 @@ gg + theme_ipsum_mplus_m2()
 ```{r mn1, fig.retina=1, fig.width=6, fig.height=4}
 gg + theme_ipsum_mplus_mn1()
 ```
-
-### Code of Conduct
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
