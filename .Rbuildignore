@@ -2,8 +2,8 @@
 ^\.Rproj\.user$
 ^cran-comments\.md$
 ^data-raw$
-^README\.*Rmd$
-^README\.*html$
+^README\.Rmd$
+^README\.md$
 ^CONDUCT\.md$
 ^README_figs$
 ^docs$

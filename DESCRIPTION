@@ -1,13 +1,13 @@
 Package: fontMPlus
-Title: Additional 'ggplot2' Themes Using 'M+ Fonts'
+Title: Additional 'ggplot2' Themes Using 'M+' Fonts
 Version: 0.1.1
 Authors@R: c(
     person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre")),
     person("MPlus", role = "cph"))
-Description: Provides ggplot2 themes based on the 'M+ fonts'.
-  The M+ fonts are a font family under the Free license. The font family provides
-  multilingual glyphs. The fonts provide Kana, over 5,000 Kanji, Basic Latin,
-  Latin-1 Supplement, Latin Extended-A, and IPA Extensions glyphs. Most of the Greek,
+Description: Provides 'ggplot2' themes based on the 'M+' fonts.
+  The 'M+' fonts are a font family under a free license. The font family provides
+  multilingual glyphs. The fonts provide 'Kana', over 5,000 'Kanji', Basic Latin,
+  Latin-1 Supplement, Latin Extended-A, and 'IPA' Extensions glyphs. Most of the Greek,
   Cyrillic, Vietnamese, and extended glyphs and symbols are included too.
   So the fonts are in conformity with ISO-8859-1, 2, 3, 4, 5, 7, 9, 10, 13, 14, 15, 16,
   Windows-1252, T1, and VISCII encoding.
@@ -19,7 +19,8 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Imports: hrbrthemes,
-    extrafont
+    extrafont,
+    ggplot2
 Suggests: stringr,
     knitr,
     rmarkdown
