@@ -2,9 +2,11 @@
 M+ FONTS Based `ggplot2` Themes.
 --------------------------------
 
-[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2017--02--26-green.svg)](/commits/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2017--02--27-green.svg)](/commits/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![keybase verified](https://img.shields.io/badge/keybase-verified-brightgreen.svg)](https://gist.github.com/bhaskarvk/46fbf2ba7b5713151d7e)
 
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.0.0-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.1-orange.svg?style=flat-square)](commits/master)
+[![Travis-CI Build Status](https://travis-ci.org/bhaskarvk/fontMPlus.svg?branch=master)](https://travis-ci.org/bhaskarvk/fontMPlus) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/bhaskarvk/fontMPlus?branch=master&svg=true)](https://ci.appveyor.com/project/bhaskarvk/fontMPlus)
+
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.0.0-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.1-orange.svg?style=flat-square)](commits/master) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/fontMPlus)](https://cran.r-project.org/package=fontMPlus) [![](http://cranlogs.r-pkg.org/badges/grand-total/fontMPlus)](http://cran.rstudio.com/web/packages/fontMPlus/index.html)
 
 ------------------------------------------------------------------------
 
