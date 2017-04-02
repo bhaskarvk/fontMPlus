@@ -10,7 +10,7 @@ M+ FONTS Based `ggplot2` Themes.
 
 ------------------------------------------------------------------------
 
-This is an add-on pacakge for [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) pacakge. It provides seven ggplot2 themes based on [M+ FONTS](http://mplus-fonts.osdn.jp/about-en.html).
+This is an add-on package for the [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) package. It provides seven ggplot2 themes based on [M+ FONTS](http://mplus-fonts.osdn.jp/about-en.html). 
 
 The M+ fonts are a font family under the Free license. You can use, copy, and distribute them, with or without modification, either commercially or noncommercially. The font family provides multilingual glyphs. The fonts provide Kana, over 5,000 Kanji, Basic Latin, Latin-1 Supplement, Latin Extended-A, and IPA Extensions glyphs. Most of the Greek, Cyrillic, Vietnamese, and extended glyphs and symbols are included too. So the fonts are in conformity with ISO-8859-1, 2, 3, 4, 5, 7, 9, 10, 13, 14, 15, 16, Windows-1252, T1, and VISCII encoding.
 
