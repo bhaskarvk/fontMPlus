@@ -1,0 +1,31 @@
+title: M+ FONTS Based `ggplot2` Themes.
+authors:
+  Bhaskar Karambelkar:
+    href: https://www.karambelkar.info/
+
+template:
+  package: pkgdown.bvk
+  params:
+    bootswatch: yeti
+
+reference:
+  - title: Package Description
+    desc: ~
+    contents:
+      - '`fontMPlus`'
+  - title: Utility Functions/Data
+    desc: ~
+    contents:
+      - '`import_mplus`'
+      - '`mplus.fontfamilies`'
+      - '`mplus.fonttable`'
+  - title: '`ggplot2` themes'
+    desc: ~
+    contents:
+      - '`theme_ipsum_mplus_c1`'
+      - '`theme_ipsum_mplus_c2`'
+      - '`theme_ipsum_mplus_m1`'
+      - '`theme_ipsum_mplus_m2`'
+      - '`theme_ipsum_mplus_mn1`'
+      - '`theme_ipsum_mplus_p1`'
+      - '`theme_ipsum_mplus_p2`'
