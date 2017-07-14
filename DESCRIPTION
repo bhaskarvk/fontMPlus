@@ -1,6 +1,6 @@
 Package: fontMPlus
 Title: Additional 'ggplot2' Themes Using 'M+' Fonts
-Version: 0.1.1
+Version: 0.1.9000
 Authors@R: c(
     person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre")),
     person("MPlus", role = "cph"))
@@ -24,6 +24,7 @@ Imports: hrbrthemes,
 Suggests: stringr,
     knitr,
     rmarkdown
-URL: https://github.com/bhaskarvk/fontMPlus
+URL: https://github.com/bhaskarvk/fontMPlus, http://bhaskarvk.github.io/fontMPlus/
 BugReports: https://github.com/bhaskarvk/fontMPlus/issues
 VignetteBuilder: knitr
+Remotes: hrbrmstr/hrbrthemes
